@@ -1,7 +1,7 @@
 var playlist = {yes: 'wurm'};
 
-function updatePlaylist(playlist, name, song) {
-  playlist[name] = song;
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
 }
 
 function removeFromPlaylist(playlist, name) {
